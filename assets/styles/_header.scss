@@ -1,0 +1,48 @@
+.header-lt-mode {
+    height: 100px;
+    background-color: $background-clr-header;
+    a {
+        text-decoration: none;
+        color: none;
+    }
+    ul {
+        list-style-type: none;
+    }
+    li {
+        display: inline-block;
+        color: none;
+    }
+    .site-title {
+        float: left;
+        font-family: $site-title-font;
+    }
+    .site-title li a {
+        color: $header-link-clr;
+        font-size: 2em;
+    }
+    .navigation {
+        font-family: $header-link-font;
+        float: right;
+    }
+    .navigation li {
+        margin-right: 50px;
+    }
+    .navigation li a {
+        color: $header-link-clr;
+        font-size: 1.2em;
+    }
+    .nav-container {
+        position: relative;
+        top: 30%;
+        margin: auto;
+        width: 80%;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .header .nav-container {
+        width: 70%;
+    }
+}
+

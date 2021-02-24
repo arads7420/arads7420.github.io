@@ -1,10 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Recipe websites, data modeling, and user experience"
 date:   2021-02-21 16:11:59 +0530
 categories: blog
+banner-img: assets/posts-imgs/fifth-post/img/lines.png
+banner-img-alt: An image that shows a screen and some code.
+excerpt_separator: <!--more-->
+permalink: blog/:title
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild <!--more-->the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
 

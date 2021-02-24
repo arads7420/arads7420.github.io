@@ -1,0 +1,135 @@
+.wrapper {
+    width: 100%;
+}
+.sidebar {
+    width: 100%;
+    border: rgb(74, 74, 74) 10px solid;
+    min-height: 50vh;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #efefef;
+    padding: 10px 10px 40px 10px;
+}
+
+//b => Banner Post
+.b-container {
+    overflow: hidden;
+    margin: auto;
+    background: rgb(252, 252, 252);
+    width: 100%;
+}
+.b-text {
+    padding: 20px 40px;
+    border: 1px solid rgba(168, 168, 168, 0.43);
+}
+.b-title h1 {
+    font-family: $heading-font;
+    font-size: 2.5rem;
+    color: $heading-clr;
+}
+.b-content {
+    margin: 30px 0;
+}
+.b-content p {
+    font-family: $post-text-font;
+}
+.b-date p {
+    font-family: $post-text-font;
+}
+.b-image img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+.b-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.b-date p, .preview-details {
+    font-family: $author-date-font;
+}
+.b-title a {
+    color: $heading-clr;
+}
+
+
+//Preview Posts
+.preview-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+.preview-post {
+    background-color: #fafafa;
+    margin-top: 50px;
+    border: 1px solid rgba(168, 168, 168, 0.43);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 400px;
+}
+.preview-text {
+    padding: 20px 30px;
+}
+.preview-content {
+    margin: 20px 0;
+}
+.preview-content p {
+    font-family: $post-text-font;
+}
+.preview-heading h2 a {
+    color: $heading-clr;
+    font-family: $heading-font;
+}
+.preview-img img {
+    max-width: 100%;
+}
+
+
+@media screen and (min-width: 900px) {
+    .b-container {
+        border-radius: 10px;
+        display: flex;
+        width: 50rem;
+        font-size: 100%;
+    }
+    .b-image {
+        height: 400px;
+        width: 80rem;
+    }
+    .b-image img {
+        height: 400px;
+    }
+    .b-text {
+        width: 70rem;
+    }
+    // .main {
+    //     width: 60rem;
+    // }
+    .preview-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 40px;
+        margin: auto;
+        justify-content: space-evenly;
+        margin-bottom: 40px;
+    }
+    .preview-post {
+        width: 370px;
+    }
+    .wrapper {
+        display: flex;
+        width: 100%;
+    }
+    .sidebar {
+        width: 300px;
+        min-height: 100vh;
+    }
+}
+
+

@@ -1,0 +1,49 @@
+---
+layout: "wrapper"
+---
+
+<div class="wrapper">
+    <div class="main"> 
+        <div class="b-container">
+            <div class="b-image">
+                <img src="../assets/posts-imgs/fifth-post/img/lines.png" alt="">
+            </div>
+            <div class="b-text">
+                <div class="b-title"><h1><a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></h1></div>
+                <div class="b-content">
+                    <p>{{ site.posts[0].excerpt }}</p>
+                </div>
+                <div class="b-date"><p>Feb 23, 2021</p></div>
+            </div>
+        </div>
+        <br><br>
+        <hr>
+        <div class="preview-container">
+            {% for post in site.posts %} 
+            {% unless post == site.posts[0] %}
+            <div class="preview-post">
+                <div class="preview-img">
+                    <img src="{{ post.banner-img }}" alt="">
+                </div>
+                <div class="preview-text">
+                    <div class="preview-heading">
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    </div>
+                    <div class="preview-content">
+                        <p>{{ post.excerpt }}</p>
+                    </div>
+                    <div class="preview-details">
+                        <p>By Author Feb 23 2021</p>
+                    </div>
+                </div>
+            </div>
+            {% endunless %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar-post">
+            <p>{{ paginator.page }}</p>
+        </div>
+    </div>
+</div>
