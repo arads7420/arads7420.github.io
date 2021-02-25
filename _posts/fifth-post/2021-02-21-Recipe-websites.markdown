@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Recipe websites, data modeling, and user experience"
+slug: "Recipe-websites-data modeling-and-user-experience"
 date:   2021-02-21 16:11:59 +0530
 categories: blog
 banner-img: assets/posts-imgs/fifth-post/img/lines.png
