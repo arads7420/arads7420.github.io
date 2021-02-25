@@ -4,7 +4,7 @@ title:  "Use CSS Variables instead of React Context"
 slug:  "Use-CSS-Variables-instead-of-React-Context"
 date:   2021-02-21 16:11:59 +0530
 categories: blog
-banner-img: assets/posts-imgs/second-post/img/the-problem-2.jpg
+banner-img: assets/images/second-post/img/the-problem-2.jpg
 banner-img-alt: An image that shows a screen and some code.
 permalink: :slug
 excerpt_separator: <!--more-->
