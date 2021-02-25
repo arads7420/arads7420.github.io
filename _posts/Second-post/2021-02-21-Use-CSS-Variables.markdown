@@ -6,7 +6,7 @@ date:   2021-02-21 16:11:59 +0530
 categories: blog
 banner-img: assets/posts-imgs/second-post/img/the-problem-2.jpg
 banner-img-alt: An image that shows a screen and some code.
-permalink: blog/:slug
+permalink: :slug
 excerpt_separator: <!--more-->
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the <!--more-->most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
