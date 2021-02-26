@@ -3,8 +3,8 @@ layout: post
 title:  "Three Ways to Blob with CSS and SVG"
 slug:  "Three-Ways-to-Blob-with-CSS-and-SVG"
 date:   2021-02-21 16:11:59 +0530
-banner-img: assets/images/second-post/img/the-problem-2.jpg
-banner-img-alt: An image that shows a screen and some code.
+banner-img: "assets/images/second-post/img/the-problem-2.jpg"
+banner-img-alt: "An image that shows a screen and some code."
 excerpt_separator: <!--more-->
 categories: blog
 permalink: :slug
