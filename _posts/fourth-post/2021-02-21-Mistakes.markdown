@@ -3,7 +3,7 @@ layout: post
 title:  "Mistakes I’ve Made as an Engineering Manager"
 slug: "Mistakes-I-have-Made-as-an-Engineering-Manager"
 date:   2021-02-21 16:11:59 +0530
-banner-img: ../assets/images/fourth-post/img/purple-lines.jpg
+banner-img: /assets/images/fourth-post/img/purple-lines.jpg
 banner-img-alt: "An image that shows a screen and some code."
 excerpt_separator: <!--more-->
 permalink: /blog/:title

@@ -3,7 +3,7 @@ layout: post
 title:  "Recipe websites, data modeling, and user experience"
 slug: "Recipe-websites-data modeling-and-user-experience"
 date:   2021-02-21 16:11:59 +0530
-banner-img: ../assets/images/fifth-post/img/lines.png
+banner-img: /assets/images/fifth-post/img/lines.png
 banner-img-alt: "An image that shows a screen and some code."
 excerpt_separator: <!--more-->
 permalink: /blog/:title

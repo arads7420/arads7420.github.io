@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 slug:  "Welcome-to-Jekyll!"
 date:   2021-02-21 16:11:59 +0530
-banner-img: ../assets/images/second-post/img/the-problem-2.jpg
+banner-img: /assets/images/second-post/img/the-problem-2.jpg
 banner-img-alt: "An image that shows a screen and some code."
 excerpt_separator: <!--more-->
 permalink: /blog/:title
