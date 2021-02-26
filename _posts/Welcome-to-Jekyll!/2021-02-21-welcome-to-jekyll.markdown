@@ -3,10 +3,10 @@ layout: post
 title:  "Welcome to Jekyll!"
 slug:  "Welcome-to-Jekyll!"
 date:   2021-02-21 16:11:59 +0530
-banner-img: "assets/images/fifth-post/img/lines.png"
+banner-img: ../assets/images/second-post/img/the-problem-2.jpg
 banner-img-alt: "An image that shows a screen and some code."
 excerpt_separator: <!--more-->
-permalink: blog/:title
+permalink: :title
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to<!--more--> run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
