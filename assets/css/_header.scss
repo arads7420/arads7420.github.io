@@ -1,5 +1,5 @@
 .header-lt-mode {
-    height: 100px;
+    height: 120px;
     background-color: $background-clr-header;
     a {
         text-decoration: none;
@@ -23,26 +23,42 @@
     .navigation {
         font-family: $header-link-font;
         float: right;
-    }
-    .navigation li {
-        margin-right: 50px;
-    }
-    .navigation li a {
-        color: $header-link-clr;
-        font-size: 1.2em;
+        margin: 5px 0;
+        li {
+            margin-right: 50px;
+        }
+        li a {
+            color: $header-link-clr;
+            font-size: 1.2em;
+        }
     }
     .nav-container {
         position: relative;
+        display: block;
+        padding-left: 0;
         top: 30%;
         margin: auto;
         width: 80%;
         height: 50px;
+        ul {
+            display: inline-block;
+        }
     }
 }
 
 @media screen and (min-width: 900px) {
-    .header .nav-container {
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
         width: 70%;
+        ul {
+            display: block;
+        }
+    }
+    .navigation {
+        align-self: center;
     }
 }
+
 

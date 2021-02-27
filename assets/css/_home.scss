@@ -3,7 +3,8 @@
 }
 .sidebar {
     width: 100%;
-    border: rgb(74, 74, 74) 10px solid;
+    border: rgba(168, 168, 168, 0.43);
+    background-color: #efefef;
     min-height: 50vh;
 }
 .main {
@@ -19,6 +20,9 @@
     margin: auto;
     background: rgb(252, 252, 252);
     width: 100%;
+    &:hover {
+        box-shadow: 0 0 5px rgba(168, 168, 168, 0.43);
+    }
 }
 .b-text {
     padding: 20px 40px;
@@ -27,6 +31,7 @@
 .b-title h1 {
     font-family: $heading-font;
     font-size: 2.5rem;
+    font-weight: lighter;
     color: $heading-clr;
 }
 .b-content {
@@ -42,6 +47,7 @@
     display: block;
     max-width: 100%;
     object-fit: cover;
+    opacity: 0.93;
 }
 .b-image {
     width: 100%;
@@ -71,12 +77,16 @@
     border-radius: 10px;
     overflow: hidden;
     width: 400px;
+    &:hover {
+        box-shadow: 0 0 5px rgba(168, 168, 168, 0.43);
+    }
 }
 .preview-text {
     padding: 20px 30px;
 }
 .preview-content {
     margin: 20px 0;
+    color: rgb(37, 37, 37);
 }
 .preview-content p {
     font-family: $post-text-font;
@@ -84,9 +94,11 @@
 .preview-heading h2 a {
     color: $heading-clr;
     font-family: $heading-font;
+    font-weight: lighter;
 }
 .preview-img img {
     max-width: 100%;
+    opacity: 0.93;
 }
 
 

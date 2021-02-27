@@ -1,3 +1,8 @@
+@import "variables";
+@import "home";
+@import "post";
+@import "header";
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,17 +12,16 @@
 body {
     position: relative;
     font-size: 1em;
+    background-color: #efefef;
 }
-
 a {
     text-decoration: none;
 }
-
 span {
     display: inline-block;
 }
+hr {
+    opacity: 0.5;
+}
 
-@import "./variables";
-@import "./header";
-@import "./home";
-@import "./post";
+

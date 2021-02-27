@@ -15,6 +15,7 @@
 .post-title h1 {
     font-family: $heading-font;
     color: $heading-clr;
+    font-weight: lighter;
 }
 .post-content {
     margin: 30px 0;
@@ -23,6 +24,7 @@
 }
 .post-content p {
     font-family: $post-text-font;
+    font-size: 16px;
 }
 .post-date p {
     font-family: $author-date-font;
@@ -39,11 +41,13 @@ code {
 pre {
     padding: 20px;
     margin: 20px 0;
+    overflow: scroll;
 }
 .post-container img {
     display: block;
     max-width: 100%;
     object-fit: cover;
+    opacity: 0.93
 }
 .post-image {
     width: 100%;
@@ -62,22 +66,23 @@ pre {
 // }
 
 .post-sidebar-post {
-    border: rgba(168, 168, 168, 0.43) 1px solid;
+    border: rgba(168, 168, 168, 0.43) 1px dashed;
     border-radius: 10px;
     width: 100%;
+    background-color: #efefef;
 }
 .post-sidebar-post h2 {
-    font-family: $header-link-font;
-    margin-bottom: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 15px;
     color: rgba(54, 54, 54, 0.801);
 }
 .post-sidebar-post a {
     text-decoration: none;
-    color: $button-clr;
-    font-family: $header-link-font;
+    color: $sidebar-link-clr;
+    font-family: 'Noto Sans KR', sans-serif;
     font-weight: bolder;
     &:hover {
-        color: rgb(255, 203, 30);
+        color: rgb(25, 45, 61);
     }
 }
 .post-sidebar-post li {
@@ -94,7 +99,7 @@ pre {
     //     margin: auto;
     // }
     .post-container img {
-        margin: 20px 0;
+        margin: 20px 0 5px 0;
         width: 100%;
     }
     .post-container {
@@ -125,4 +130,13 @@ pre {
         width: 80%;
         margin: 0 auto;
     }
+}
+
+img + em {
+    display: block; 
+    text-align: center;
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-family: $author-date-font;
 }
