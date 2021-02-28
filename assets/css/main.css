@@ -35,7 +35,7 @@
 }
 
 .b-title h1 {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Lora", serif;
   font-size: 2.2rem;
   font-weight: lighter;
   color: #161616;
@@ -119,7 +119,7 @@
 
 .preview-heading h2 a {
   color: #161616;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Lora", serif;
   font-weight: lighter;
 }
 
@@ -197,7 +197,7 @@
 }
 
 .post-title h1 {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Lora", serif;
   color: #161616;
   font-weight: lighter;
 }
@@ -258,27 +258,25 @@ pre {
 }
 
 .post-sidebar-post {
-  border: rgba(168, 168, 168, 0.43) 1px dashed;
+  border: rgba(168, 168, 168, 0.43) 4px solid;
   border-radius: 10px;
   width: 100%;
-  background-color: #efefef;
+  color: #464646;
 }
 
 .post-sidebar-post h2 {
   font-family: 'Noto Sans KR', sans-serif;
   margin-bottom: 15px;
-  color: rgba(54, 54, 54, 0.801);
 }
 
 .post-sidebar-post a {
   text-decoration: none;
-  color: #3aa9e9;
   font-family: 'Noto Sans KR', sans-serif;
-  font-weight: bolder;
+  color: #5c5c5c;
 }
 
 .post-sidebar-post a:hover {
-  color: #192d3d;
+  color: #161616;
 }
 
 .post-sidebar-post li {

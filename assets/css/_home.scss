@@ -30,7 +30,7 @@
     border: 1px solid rgba(168, 168, 168, 0.43);
 }
 .b-title h1 {
-    font-family: $heading-font;
+    font-family: $post-text-font;
     font-size: 2.2rem;
     font-weight: lighter;
     color: $heading-clr;
@@ -94,7 +94,7 @@
 }
 .preview-heading h2 a {
     color: $heading-clr;
-    font-family: $heading-font;
+    font-family: $post-text-font;
     font-weight: lighter;
 }
 .preview-img img {

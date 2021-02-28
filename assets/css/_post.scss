@@ -13,7 +13,7 @@
     border: rgba(168, 168, 168, 0.43) 1px solid;
 }
 .post-title h1 {
-    font-family: $heading-font;
+    font-family: $post-text-font;
     color: $heading-clr;
     font-weight: lighter;
 }
@@ -66,23 +66,23 @@ pre {
 // }
 
 .post-sidebar-post {
-    border: rgba(168, 168, 168, 0.43) 1px dashed;
+    border: rgba(168, 168, 168, 0.43) 4px solid;
     border-radius: 10px;
     width: 100%;
-    background-color: #efefef;
+    color: #464646;
 }
 .post-sidebar-post h2 {
     font-family: 'Noto Sans KR', sans-serif;
     margin-bottom: 15px;
-    color: rgba(54, 54, 54, 0.801);
+    // color: rgba(54, 54, 54, 0.801);
 }
 .post-sidebar-post a {
     text-decoration: none;
-    color: $sidebar-link-clr;
+    // color: $sidebar-link-clr;
     font-family: 'Noto Sans KR', sans-serif;
-    font-weight: bolder;
+    color: #5c5c5c;
     &:hover {
-        color: rgb(25, 45, 61);
+        color: rgb(22, 22, 22);
     }
 }
 .post-sidebar-post li {
